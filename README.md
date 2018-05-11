@@ -6,56 +6,56 @@ This is a bootstrap slider. a few custome has been made. no plugin needed just u
 
 ```markdown
 <section class="main-area">
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleControls" data-slide-to="0" class="active">1</li>
-                    <li data-target="#carouselExampleControls" data-slide-to="1">2</li>
-                    <li data-target="#carouselExampleControls" data-slide-to="2">3</li>
-                </ol>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleControls" data-slide-to="0" class="active">1</li>
+        <li data-target="#carouselExampleControls" data-slide-to="1">2</li>
+        <li data-target="#carouselExampleControls" data-slide-to="2">3</li>
+    </ol>
 
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <!-- carousel-image -->
-                        <div class="moving-area">
-                            <div class="moving-div" style="background: url(http://www.bikesrepublic.com/wp-content/uploads/2016/11/2017-KTM-1290-Super-Duke-R-action-03.jpg) no-repeat bottom center / cover;"></div>
-                            <!-- carousel-text -->
-                            <div class="carousel-text">
-                                <div class="container">
-                                    <h1>This is slid one</h1>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-
-                    <div class="carousel-item">
-                        <!-- carousel-image -->
-                        <div class="moving-area">
-                            <div class="moving-div" style="background: url(https://i1.wp.com/www.iamabiker.com/wp-content/uploads/2017/01/Ducati-Scrambler-HD-wallpapers-1.jpg) no-repeat center center / cover;"></div>
-                            <!-- carousel-text -->
-                            <div class="carousel-text">
-                                <div class="container">
-                                    <h1>This is slid two</h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <!-- carousel-image -->
-                        <div class="moving-area">
-                            <div class="moving-div" style="background: url(http://www.srpskafabrikastakla.com/image/2018/03/19/2018-ktm-1290-super-duke-r-ktm-1290-super-duke-r-gets-an-update-for-2017_bb1319796f194f01.jpg) no-repeat top center / cover;"></div>
-                            <!-- carousel-text -->
-                            <div class="carousel-text">
-                                <div class="container">
-                                    <h1>This is slid three</h1>
-                                </div>
-                            </div>
-                        </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <!-- carousel-image -->
+            <div class="moving-area">
+                <div class="moving-div" style="background: url(http://www.bikesrepublic.com/wp-content/uploads/2016/11/2017-KTM-1290-Super-Duke-R-action-03.jpg) no-repeat bottom center / cover;"></div>
+                <!-- carousel-text -->
+                <div class="carousel-text">
+                    <div class="container">
+                        <h1>This is slid one</h1>
                     </div>
                 </div>
             </div>
-        </section>
+
+        </div>
+
+        <div class="carousel-item">
+            <!-- carousel-image -->
+            <div class="moving-area">
+                <div class="moving-div" style="background: url(https://i1.wp.com/www.iamabiker.com/wp-content/uploads/2017/01/Ducati-Scrambler-HD-wallpapers-1.jpg) no-repeat center center / cover;"></div>
+                <!-- carousel-text -->
+                <div class="carousel-text">
+                    <div class="container">
+                        <h1>This is slid two</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <!-- carousel-image -->
+            <div class="moving-area">
+                <div class="moving-div" style="background: url(http://www.srpskafabrikastakla.com/image/2018/03/19/2018-ktm-1290-super-duke-r-ktm-1290-super-duke-r-gets-an-update-for-2017_bb1319796f194f01.jpg) no-repeat top center / cover;"></div>
+                <!-- carousel-text -->
+                <div class="carousel-text">
+                    <div class="container">
+                        <h1>This is slid three</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
 ```
 
 
