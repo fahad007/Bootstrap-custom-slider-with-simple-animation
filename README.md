@@ -2,9 +2,7 @@
 
 This is a bootstrap slider. a few custome has been made. no plugin needed just use Bootstrap4.
 
-### Markdown
-
-Add this html
+### Add this html
 
 ```markdown
 <section class="main-area">
@@ -62,9 +60,7 @@ Add this html
 
 
 
-### Markdown
-
-Add this css
+### Add this css
 
 ```markdown
 @import url('https://fonts.googleapis.com/css?family=Teko:400,700');
@@ -88,7 +84,6 @@ Add this css
     left: -10%;
     -webkit-filter:blur(2px);
 }
-
 .carousel-text {
     position: absolute;
     width: 100%;
@@ -100,7 +95,6 @@ Add this css
     align-items: center;
     text-align: right;
 }
-
 .carousel-text h1 {
     font-size: 8vw;
     text-transform: uppercase;
@@ -111,13 +105,9 @@ Add this css
     transform: translateX(-25%);
     text-shadow: 0 0 5px rgba(0,0,0,.2);
 }
-
 .carousel-item.active .carousel-text h1 {
     transform: translateX(0);
 }
-
-
-
 .carousel-indicators {
     position: absolute;
     right: unset;
@@ -142,7 +132,6 @@ Add this css
     justify-content: center;
     align-items: center;
 }
-
 .carousel-indicators li {
     position: relative;
     -webkit-box-flex: 0;
@@ -164,26 +153,20 @@ Add this css
 }
 ```
 
-### Markdown
-
-Add this javascript
+### Add this javascript
 
 ```markdown
 var windowWidth = $(window).width();
-            var windowHeight = $(window).height();
-
-            $('.moving-area').mousemove(function(event) {
-                var moveX = (($(window).width() / 2) - event.pageX) * 0.1;
-                var moveY = (($(window).height() / 2) - event.pageY) * 0.1;
-                $('.moving-div').css('margin-left', moveX + 'px');
-                $('.moving-div').css('margin-top', moveY + 'px');
-            });
+var windowHeight = $(window).height();
+$('.moving-area').mousemove(function(event) {
+    var moveX = (($(window).width() / 2) - event.pageX) * 0.1;
+    var moveY = (($(window).height() / 2) - event.pageY) * 0.1;
+    $('.moving-div').css('margin-left', moveX + 'px');
+    $('.moving-div').css('margin-top', moveY + 'px');
+});
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
 ### Here is the live link of this project you can check it out
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [click here to view the project ](https://fahad007.github.io/Bootstrap-custom-slider-with-simple-animation/). 
+[click here to view the project ](https://fahad007.github.io/Bootstrap-custom-slider-with-simple-animation/). 
 
 
