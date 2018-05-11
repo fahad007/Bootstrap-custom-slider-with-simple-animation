@@ -191,13 +191,15 @@ a:active { color: lime } /* active links */
     margin-left: 0;
     text-indent: 0;
     background: none !important;
-    font-size: 50px;
+    font-size: 2.5vw;
+    transition:all .4s;
     color: #fff;
     z-index: 111111111;
     font-weight: 900;
 }
 .carousel-indicators .active {
     background-color: none;
+    font-size:6vw;
 }
 
 
