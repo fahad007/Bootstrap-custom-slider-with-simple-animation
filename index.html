@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- Google metarial icon -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap-reboot.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+		
+		<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <section class="main-area">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleControls" data-slide-to="0" class="active">1</li>
+                    <li data-target="#carouselExampleControls" data-slide-to="1">2</li>
+                    <li data-target="#carouselExampleControls" data-slide-to="2">3</li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <!-- carousel-image -->
+                        <div class="moving-area">
+                            <div class="moving-div" style="background: url(http://www.bikesrepublic.com/wp-content/uploads/2016/11/2017-KTM-1290-Super-Duke-R-action-03.jpg) no-repeat bottom center / cover;"></div>
+                            <!-- carousel-text -->
+                            <div class="carousel-text">
+                                <div class="container">
+                                    <h1>This is slid one</h1>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="carousel-item">
+                        <!-- carousel-image -->
+                        <div class="moving-area">
+                            <div class="moving-div" style="background: url(https://i1.wp.com/www.iamabiker.com/wp-content/uploads/2017/01/Ducati-Scrambler-HD-wallpapers-1.jpg) no-repeat center center / cover;"></div>
+                            <!-- carousel-text -->
+                            <div class="carousel-text">
+                                <div class="container">
+                                    <h1>This is slid two</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <!-- carousel-image -->
+                        <div class="moving-area">
+                            <div class="moving-div" style="background: url(http://www.srpskafabrikastakla.com/image/2018/03/19/2018-ktm-1290-super-duke-r-ktm-1290-super-duke-r-gets-an-update-for-2017_bb1319796f194f01.jpg) no-repeat top center / cover;"></div>
+                            <!-- carousel-text -->
+                            <div class="carousel-text">
+                                <div class="container">
+                                    <h1>This is slid three</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol> -->
+                </div>
+            </div>
+        </section>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <!-- FONT AWSAME ICON CDN -->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <!-- BOOTSTRAP JS -->
+        <script src="js/bootstrap.bundle.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/plugins.js"></script>
+        <script>
+            var windowWidth = $(window).width();
+            var windowHeight = $(window).height();
+
+            $('.moving-area').mousemove(function(event) {
+                var moveX = (($(window).width() / 2) - event.pageX) * 0.1;
+                var moveY = (($(window).height() / 2) - event.pageY) * 0.1;
+                $('.moving-div').css('margin-left', moveX + 'px');
+                $('.moving-div').css('margin-top', moveY + 'px');
+            });
+
+            $('.carousel').carousel()
+            
+        </script>
+        <!-- CUSTOME JS -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
